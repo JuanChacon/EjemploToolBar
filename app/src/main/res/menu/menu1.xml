@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/hola"
+        app:showAsAction="always"
+        android:title="Hola"
+        android:icon="@drawable/power"
+        />
+    <item
+        android:id="@+id/bye"
+        app:showAsAction="always"
+        android:title="Bye"
+        android:icon="@drawable/play"
+        />
+    <item
+        android:id="@+id/inicio"
+        app:showAsAction="always"
+        android:title="Inicio"
+        android:icon="@drawable/remar" />
+    <item
+        android:id="@+id/fin"
+        app:showAsAction="always"
+        android:title="Fin"
+        android:icon="@drawable/song"
+        />
+</menu>
